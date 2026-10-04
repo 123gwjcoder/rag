@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 环境变量与密钥
+.env
+*.key
+
+# 数据与模型（大文件不上传）
+data/*
+!data/.gitkeep
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# 向量库
+chroma_db/
+faiss_index/
+
+# IDE
+.vscode/
+.idea/
+
+# 输出与日志
+outputs/*
+!outputs/.gitkeep
+*.log
